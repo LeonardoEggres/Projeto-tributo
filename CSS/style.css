@@ -1,11 +1,100 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-style: italic;
+}
+
+.imagem {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagem-bold {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.biografia {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.citacoes {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.citacoes blockquote {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.citacoes sub {
+    font-style: italic;
+}
+
+.clubes {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.clubes li {
+    height: 30px;
+}
+
+.clubes dl {
+    margin: 30px 0;
+    font-weight: bold
+}
+
+.clubes p {
+    padding-left: 39px;
+}
+
+.table {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
 table {
-    width: 200px;
+    width: 400px;
     border-collapse: collapse;
 }
 
-td,
 tr,
+td,
 th {
     border: 1px solid black;
     padding: 5px;
+    text-align: center;
 }
+    
