@@ -47,6 +47,13 @@ html {
 .citacoes {
     background-color: #ddd;
     padding: 30px;
+    transition: 500ms linear;
+}
+
+.citacoes:hover{
+    box-shadow: 17px 15px 6px -6px rgba(0,0,0,0.75);
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .citacoes blockquote {
@@ -76,6 +83,11 @@ html {
 
 .clubes p {
     padding-left: 39px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
 }
 
 .table {
